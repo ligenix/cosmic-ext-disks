@@ -299,30 +299,27 @@ usage-show-all-root-mode = Afficher tous les fichiers (mode racine)
 usage-scan-setup = Configuration de l'analyse d'utilisation
 usage-choose-mount-points = Choisir les points de montage
 usage-choose-mount-points-desc = Sélectionnez un ou plusieurs points de montage à inclure dans l'analyse.
-usage-scan-parallelism-label
-usage-parallelism-low = Parallélisme d'analyse
-usage-parallelism-balanced = Faible
-usage-parallelism-high = Équilibré
-usage-selected = Élevé
-usage-not-selected = Sélectionné
-usage-loading-mount-points = Non sélectionné
-usage-no-mount-points = Chargement des points de montage...
-usage-parallelism
-usage-start-scan = Aucun point de montage disponible.
-usage-select-at-least-one-mount-point
-usage-delete-summary = Parallélisme
- = Démarrer l'analyse
-# = Sélectionnez au moins un point de montage
-usage-category-documents = Fichiers supprimés : { $deleted } ; échec de la suppression : { $failed }
-usage-category-images
-usage-category-audio Catégories d'utilisation
-usage-category-video = Documents
-usage-category-archives = Images
-usage-category-code = Audio
-usage-category-binaries = Vidéo
-usage-category-packages = Archives
-usage-category-system = Code
-usage-category-other = Binaires
- = Paquets
- = Système
- = Autre
+usage-scan-parallelism-label = Parallélisme d'analyse
+usage-parallelism-low = Faible
+usage-parallelism-balanced = Équilibré
+usage-parallelism-high = Élevé
+usage-selected = Sélectionné
+usage-not-selected = Non sélectionné
+usage-loading-mount-points = Chargement des points de montage...
+usage-no-mount-points = Aucun point de montage disponible.
+usage-parallelism = Parallélisme
+usage-start-scan = Démarrer l'analyse
+usage-select-at-least-one-mount-point = Sélectionnez au moins un point de montage
+usage-delete-summary = Fichiers supprimés : { $deleted } ; échec de la suppression : { $failed }
+
+# Catégories d'utilisation
+usage-category-documents = Documents
+usage-category-images = Images
+usage-category-audio = Audio
+usage-category-video = Vidéo
+usage-category-archives = Archives
+usage-category-code = Code
+usage-category-binaries = Binaires
+usage-category-packages = Paquets
+usage-category-system = Système
+usage-category-other = Autre
